@@ -15,7 +15,7 @@
 `docker-compose run --rm web rails db:migrate:reset`  
 
 ## pry
-`docker attach "container_name"`
+`docker attach rails_vue_app_web_1`
 
 ## if your app doesn't work, exec following cmd on your app dir
 `rm -f app/tmp/pids/server.pid`

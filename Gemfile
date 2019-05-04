@@ -11,13 +11,19 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 # gem 'mini_racer', platforms: :ruby
 
-gem 'coffee-rails', '~> 4.2'
+gem "devise"
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-# gem 'redis', '~> 4.0'
+gem "redis"
+gem "haml-rails"
+gem "rabl"
+gem "active_decorator"
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'mini_magick', '~> 4.8'
-# gem 'capistrano-rails', group: :development
+gem "capistrano-rails", group: :development
+gem "pry"
+gem "pry-rails"
+gem "pry-byebug"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
