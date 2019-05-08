@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/1556085/
+@rails/webpacker	package.json	/^    "@rails\/webpacker": "^4.0.2",$/;"	s	object:dependencies
+App	config/application.rb	/^module App$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	module:App
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	module:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	module:ApplicationCable
+DB	README.md	/^## DB$/;"	s
+In Container	README.md	/^# In Container$/;"	c
+Rails	README.md	/^## Rails$/;"	s
+Reference	README.md	/^## Reference$/;"	s
+TestCase	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	module:ActiveSupport
+The change you wanted was rejected.	public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h
+The page you were looking for doesn't exist.	public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h
+We're sorry, but something went wrong.	public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h
+dependencies	package.json	/^  "dependencies": {$/;"	o
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+environment	config/webpack/development.js	/^const environment = require('.\/environment')$/;"	C
+environment	config/webpack/production.js	/^const environment = require('.\/environment')$/;"	C
+environment	config/webpack/test.js	/^const environment = require('.\/environment')$/;"	C
+exports	babel.config.js	/^module.exports = function(api) {$/;"	f	fuThe change you wanted was rejected.	public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h
+exports	babel.config.js	/^module.exports = function(api) {$/;"	f	function:module
+exports	postcss.config.js	/^module.exports = {$/;"	c	class:module
+name	package.json	/^  "name": "app",$/;"	s
+plugins	postcss.config.js	/^  plugins: [$/;"	p	class:module.exports
+private	package.json	/^  "private": true,$/;"	b
+vue	package.json	/^    "vue": "^2.6.10",$/;"	s	object:dependencies
+vue-loader	package.json	/^    "vue-loader": "^15.7.0",$/;"	s	object:dependencies
+vue-template-compiler	package.json	/^    "vue-template-compiler": "^2.6.10"$/;"	s	object:dependencies
+webpack-dev-server	package.json	/^    "webpack-dev-server": "^3.3.1"$/;"	s	object:devDependencies
